@@ -1,0 +1,23 @@
+.sessao-produtos {
+    padding: 6rem 0;
+    text-align: center;
+}
+
+
+.background, .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+}
+
+.backdrop {
+    background: #333333;
+    opacity: .8;
+}
+
+.background {
+    background-image: url(../assets/fundo.jpg);
+}

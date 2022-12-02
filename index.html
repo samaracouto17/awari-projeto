@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- definição do conjunto de bibliotecas ncessárias -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+    integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <!-- fim da definição das bibliotecas -->
+  <link rel="stylesheet" href="./styles/formulario.css">
+  <link rel="stylesheet" href="./styles/produto.css">
+  <link rel="stylesheet" href="./styles/fundo.css">
+</head>
+
+<body>
+
+  <div class="background"></div>
+  <div class="backdrop"></div>
+
+  <div class="section-produtos" id="produtos">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+
+        <!-- Produto 1 -->
+        <div class="col-md-4">
+          <div class="box-produto">
+            <div class="prod-header prod-1"></div>
+            <div class="vantagens">
+              <p class="destaque">Fusca</p>
+              <p class="prod-preco">R$30.000,00</p>
+              <p class="texto"><i class="fa fa-check"></i> Detalhe Adicional</p>
+              <p class="texto"><i class="fas fa-times"></i> Opção número #1</p>
+              <p class="texto"><i class="fas fa-times"></i> Opção número #2</p>
+            </div>
+            <button id="reservar-produto-1" class="prod-reservar">Reservar</button>
+          </div>
+        </div>
+        <!-- Produto 2 -->
+        <div class="col-md-4">
+          <div class="box-produto gold-box">
+            <div class="prod-header gold-destaque prod-2"> </div>
+            <div class="vantagens">
+              <p class="destaque">Mustang</p>
+              <p class="prod-preco">R$100.000,00</p>
+              <p class="texto"><i class="fa fa-check"></i> Detalhe Adicional</p>
+              <p class="texto"><i class="fa fa-check"></i> Opção número #1</p>
+              <p class="texto"><i class="fa fa-check"></i> Opção número #2</p>
+            </div>
+            <button id="reservar-produto-2" class="prod-reservar">Reservar</button>
+          </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="col-md-4">
+          <div class="box-produto gold-box">
+            <div class="prod-header gold-destaque prod-3"></div>
+            <div class="vantagens">
+              <p class="destaque">bicicleta</p>
+              <p class="prod-preco">R$5.000,00</p>
+              <p class="texto"><i class="fa fa-check"></i> Detalhe Adicional</p>
+              <p class="texto"><i class="fa fa-check"></i> Opção número #1</p>
+              <p class="texto"><i class="fa fa-times"></i> Opção número #2</p>
+            </div>
+            <button id="reservar-produto-3" class="prod-reservar">Reservar</button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- formulario da reserva -->
+      <div id="formulario">
+        <div class="formulario-conteudo">
+          <div class="modal-body">
+            <!-- class do bootstrap -->
+            <span class="fechar">&times;</span>
+            <label>Rservar item selecionado</label>
+            <input type="email" class="form-control" aria-describedby="email"
+              placeholder="seu e-mail ou número de telefone celular">
+          </div> <!-- class do bootstrap -->
+          <div class="modal-footer">
+            <!-- class do bootstrap -->
+            <button id="enviar" type="button" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+      <!-- fim do formulario reserva -->
+    </div>
+  </div>
+  <script type="text/javascript" src="src/script.js"></script>
+</body>
+
+</html>

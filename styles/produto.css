@@ -1,0 +1,96 @@
+.section-produtos {
+    padding: 6em 0;
+    text-align: center;
+
+}
+
+.box-produto {
+    background-color: #f9fbfa;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding-bottom: 1px;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.3);
+}
+
+.prod-header {
+    background-color: #32729F !important;
+    border-radius: 10px 10px 00;
+    height: 250px;
+}
+
+.prod-1,
+.prod-2,
+.prod-3 {
+    background-size: cover;
+    background-position: center;
+}
+
+.prod-1 {
+    background-image: url(../assets/fusca.jpg);
+}
+
+.prod-2 {
+    background-image: url(../assets/mustang.jpg);
+}
+
+.prod-3 {
+    background-image: url(../assets/bicicleta.jpg);
+}
+
+.prod-preco {
+    font-size: 20pt;
+    font-weight: 600;
+    padding: 10px 0;
+    margin-top: -20px;
+}
+
+.vantagens {
+    background-color: #f2f6f7;
+    padding: 10px 25px;
+}
+
+.vantagens .destaque {
+    background-image: -webkit-linear-gradient(left, #0AAFFA, #27CAA2 80%);
+    background-image: -o-linear-gradient(left, #0AAFFA, #27CAA2 80%);
+    background-image: linear-gradient(to left, #0AAFFA, #27CAA2 80%);
+    border-radius: 30px;
+    color: white;
+    font-size: 13pt;
+    font-weight: bold;
+    margin: -33px auto 40px auto;
+    padding: 10px;
+    text-align: center;
+    width: 190px;
+}
+
+.vantagens .texto {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.vantagens .fa-check {
+    color: #71d65d;
+}
+
+.vantagens .fa-times {
+    color: #d12525;
+}
+
+.prod-reservar {
+    border: 2px solid #0089ff;
+    border-radius: 30px;
+    color: #0089ff;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 30px auto;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.prod-reservar:hover {
+    background-color: #0089ff;
+    color: #fff;
+}
